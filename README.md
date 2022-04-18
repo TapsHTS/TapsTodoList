@@ -25,4 +25,4 @@ Dans le fichier `.env.exemple` *(à renomer `.env`)*.
 
 ## ➕ Modules
 
-Utilisation de `discord.js`
+Utilisation de `discord.js`.
