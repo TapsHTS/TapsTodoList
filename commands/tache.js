@@ -63,7 +63,7 @@ module.exports = {
                         .setColor('#0099ff')
                         .setTitle('Liste des taches à faire:')
                         .setDescription(todos.map(todo => '- ' + `\`${todo}\``).join('\n'))
-                        .setFooter({ text: 'Taps Todo List', iconURL: "/home/container/TapsTodoList/TTL.png" })
+                        .setFooter({ text: process.env.BOT_NAME, iconURL: process.env.BOT_LOGO })
                     message.channel.send({ embeds: [embedList] });
 
                 }
