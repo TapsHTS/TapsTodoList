@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+require('dotenv').config
 const client = new Discord.Client({
     messageCacheLifetime: 60,
     fetchAllMembers: false,
@@ -38,4 +39,4 @@ client.on('ready', () => {
     client.user.setActivity("les choses à faires", { type: 'WATCHING' });
 });
 
-client.login('DISCORD BOT TOKEN');
+client.login(process.env.BOT_DISCORD_TOKEN);
