@@ -1,0 +1,23 @@
+{
+    "name": "tapstodolist",
+    "version": "1.0.0",
+    "description": "List des choses à faire de TAaps",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TapsHTS/TapsTodoList.git"
+    },
+    "author": "TapsHTS",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/TapsHTS/TapsTodoList/issues"
+    },
+    "homepage": "https://github.com/TapsHTS/TapsTodoList#readme",
+    "dependencies": {
+        "discord.js": "^13.6.0",
+        "simple-json-db": "^2.0.0"
+    }
+}
