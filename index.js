@@ -38,4 +38,4 @@ client.on('ready', () => {
     client.user.setActivity("les choses à faires", { type: 'WATCHING' });
 });
 
-client.login('OTY1NTU1NzQyNTE2MDcyNDQ5.Yl053A.I5yqVN-e72qv315e0v2QeR-yR8I');
+client.login('DISCORD BOT TOKEN');
